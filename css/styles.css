@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0px;
+	background-image:url(../images/overlook%20background.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center;
+	height: 100%;
+	background-attachment: fixed;
+	color: #E2E2E2;
+	margin-right: 15%;
+	margin-left: 15%;
+	font-size:16px
+}
+h1 {
+	font-size: 300%;
+	line-height: 1em;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 20px;
+	font: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #3E6F9A;
+	width: 100%;
+	}
+h2 {
+	font-size: 170%;
+	color: #E2E2E2;
+	font: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	margin-top: 0px;
+}	
+h3{
+	font-size: 150%;
+	color: #3E6F9A;
+	font: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:center;
+}
+h4 {
+	font-size: 170%;
+	color: #E2E2E2;
+	font: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: left;
+}
+.first {
+	font: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:200;
+	font-size: 500%;
+}
+nav {
+	border-bottom: 6px solid #F19507;
+	background: rgba(99,99,99,.80);
+}
+navbar-brand {
+	color: E2E2E2;
+}
+.welcome {
+	font-family: Helvetica;
+	font-size:10%;
+}
+.page_title {
+	font-size: 300%;
+	width: 80%;
+	font: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	text-decoration: underline;
+	padding-top: 20px;
+	color: #3E6F9A;
+}
+.title_image {
+	vertical-align: text-bottom;
+	Width: 20%;
+}
+.h_image {
+	float: right;
+	align-items:center;
+	margin-left: 10px;
+}
+.a1_image {
+	float: left;
+	margin-right: 10px;
+	width:30%;
+	height: auto;
+	min-width: 100px;
+	max-width: 250px;
+}
+.a2_image{
+	float: right;
+	margin-left: 10px;
+	width:30%;
+	height: auto;
+	min-width: 100px;
+	max-width: 250px;
+}
+p {
+	background:rgba(124,124,124,.40)
+}
