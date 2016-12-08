@@ -51,6 +51,11 @@ h4 {
 	font: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-align: left;
 }
+h5 {font-size: 140%;
+	color: #E2E2E2;
+	font: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: left;
+background:rgba(124,124,124,.40);}
 .first {
 	font: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight:200;
@@ -60,8 +65,26 @@ nav {
 	border-bottom: 6px solid #F19507;
 	background: rgba(99,99,99,.80);
 }
-navbar-brand {
-	color: E2E2E2;
+.navbar-brand a {
+	color: #E2E2E2;
+}
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: #2B1998;
+}
+
+/* selected link */
+a:active {
+    color: white;
 }
 .welcome {
 	font-family: Helvetica;
@@ -106,3 +129,5 @@ navbar-brand {
 p {
 	background:rgba(124,124,124,.40)
 }
+footer {text-align: center;
+background:rgba(124,124,124,.40);}
